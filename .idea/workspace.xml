@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa2d17af-ff95-46bd-9c96-52dfc51d6971" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/TypeCoercion.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/BooleanBasics.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/BooleanBasics.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +61,30 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotest.BooleanBasics: not takes precedence over and">
+  <component name="RunManager" selected="Kotest.TypeCoercion: if we want a byte as a result of the operation between two bytes, we need to manually apply a type conversion">
+    <configuration name="TypeCoercion" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;TypeCoercion&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="BooleanBasics" type="ioKotest" factoryName="Kotest" defaultName="singleModule">
       <module name="gradleKotest.test" />
       <option name="passParentEnvs" value="true" />
@@ -69,71 +92,6 @@
       <option name="programParameters" value="" />
       <option name="specName" value="BooleanBasics" />
       <option name="testPath" value="" />
-      <option name="packageName" value="" />
-      <option name="vmparams" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BooleanBasics: and returns true if both operands are true, otherwise returns false" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
-      <module name="gradleKotest.test" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
-      <option name="programParameters" value="" />
-      <option name="specName" value="BooleanBasics" />
-      <option name="testPath" value="and returns true if both operands are true, otherwise returns false" />
-      <option name="packageName" value="" />
-      <option name="vmparams" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BooleanBasics: not reverses the Boolean value" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
-      <module name="gradleKotest.test" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
-      <option name="programParameters" value="" />
-      <option name="specName" value="BooleanBasics" />
-      <option name="testPath" value="not reverses the Boolean value" />
-      <option name="packageName" value="" />
-      <option name="vmparams" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BooleanBasics: not takes precedence over and" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
-      <module name="gradleKotest.test" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
-      <option name="programParameters" value="" />
-      <option name="specName" value="BooleanBasics" />
-      <option name="testPath" value="not takes precedence over and" />
-      <option name="packageName" value="" />
-      <option name="vmparams" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BooleanBasics: or returns true if at least one operand is true, otherwise returns false" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
-      <module name="gradleKotest.test" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
-      <option name="programParameters" value="" />
-      <option name="specName" value="BooleanBasics" />
-      <option name="testPath" value="or returns true if at least one operand is true, otherwise returns false" />
-      <option name="packageName" value="" />
-      <option name="vmparams" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BooleanBasics: xor returns true if both operands have different values, otherwise returns false" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
-      <module name="gradleKotest.test" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
-      <option name="programParameters" value="" />
-      <option name="specName" value="BooleanBasics" />
-      <option name="testPath" value="xor returns true if both operands have different values, otherwise returns false" />
       <option name="packageName" value="" />
       <option name="vmparams" value="" />
       <method v="2">
@@ -166,13 +124,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TypeCoercion: between Int and Long type gets coerced to Long" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
+      <module name="gradleKotest.test" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
+      <option name="programParameters" value="" />
+      <option name="specName" value="TypeCoercion" />
+      <option name="testPath" value="between Int and Long type gets coerced to Long" />
+      <option name="packageName" value="" />
+      <option name="vmparams" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TypeCoercion: between Long and Double type gets coerced to Double" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
+      <module name="gradleKotest.test" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
+      <option name="programParameters" value="" />
+      <option name="specName" value="TypeCoercion" />
+      <option name="testPath" value="between Long and Double type gets coerced to Double" />
+      <option name="packageName" value="" />
+      <option name="vmparams" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TypeCoercion: if we want a byte as a result of the operation between two bytes, we need to manually apply a type conversion" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
+      <module name="gradleKotest.test" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
+      <option name="programParameters" value="" />
+      <option name="specName" value="TypeCoercion" />
+      <option name="testPath" value="if we want a byte as a result of the operation between two bytes, we need to manually apply a type conversion" />
+      <option name="packageName" value="" />
+      <option name="vmparams" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TypeCoercion: operations between bytes get coerced to Int" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
+      <module name="gradleKotest.test" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
+      <option name="programParameters" value="" />
+      <option name="specName" value="TypeCoercion" />
+      <option name="testPath" value="operations between bytes get coerced to Int" />
+      <option name="packageName" value="" />
+      <option name="vmparams" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotest.BooleanBasics: not takes precedence over and" />
-        <item itemvalue="Kotest.BooleanBasics: xor returns true if both operands have different values, otherwise returns false" />
-        <item itemvalue="Kotest.BooleanBasics: or returns true if at least one operand is true, otherwise returns false" />
-        <item itemvalue="Kotest.BooleanBasics: and returns true if both operands are true, otherwise returns false" />
-        <item itemvalue="Kotest.BooleanBasics: not reverses the Boolean value" />
+        <item itemvalue="Kotest.TypeCoercion: if we want a byte as a result of the operation between two bytes, we need to manually apply a type conversion" />
+        <item itemvalue="Gradle.TypeCoercion" />
+        <item itemvalue="Kotest.TypeCoercion: operations between bytes get coerced to Int" />
+        <item itemvalue="Kotest.TypeCoercion: between Long and Double type gets coerced to Double" />
+        <item itemvalue="Kotest.TypeCoercion: between Int and Long type gets coerced to Long" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +194,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659885079901</updated>
-      <workItem from="1659885082680" duration="12346000" />
+      <workItem from="1659885082680" duration="13695000" />
     </task>
     <servers />
   </component>
