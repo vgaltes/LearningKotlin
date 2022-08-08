@@ -30,4 +30,35 @@ class BooleanBasics : StringSpec ({
 
         "True".toBooleanStrictOrNull() shouldBe null
     }
+
+    "not reverses the Boolean value" {
+        val value = true
+
+        !value shouldBe false
+    }
+
+    "and returns true if both operands are true, otherwise returns false" {
+        (true && true) shouldBe true
+        (false && true) shouldBe false
+        (true && false) shouldBe false
+        (false && false) shouldBe false
+    }
+
+    "or returns true if at least one operand is true, otherwise returns false" {
+        (true || true) shouldBe true
+        (false|| true) shouldBe true
+        (true || false) shouldBe true
+        (false || false) shouldBe false
+    }
+
+    "xor returns true if both operands have different values, otherwise returns false" {
+        (true xor true) shouldBe false
+        (false xor true) shouldBe true
+        (true xor false) shouldBe true
+        (false xor false) shouldBe false
+    }
+
+    "not takes precedence over and" {
+        (true && !false) shouldBe true
+    }
 })
