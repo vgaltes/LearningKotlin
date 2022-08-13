@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa2d17af-ff95-46bd-9c96-52dfc51d6971" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/TypeCoercion.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/Conditionals.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/TypeCoercion.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/TypeCoercion.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +63,30 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotest.TypeCoercion: if we want a byte as a result of the operation between two bytes, we need to manually apply a type conversion">
+  <component name="RunManager" selected="Gradle.Conditionals (1)">
+    <configuration name="Conditionals (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;Conditionals&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="TypeCoercion" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -98,6 +123,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Conditionals" type="ioKotest" factoryName="Kotest" defaultName="singleModule">
+      <module name="gradleKotest.test" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
+      <option name="programParameters" value="" />
+      <option name="specName" value="Conditionals" />
+      <option name="testPath" value="" />
+      <option name="packageName" value="" />
+      <option name="vmparams" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Run all in gradleKotest.test" type="ioKotest" factoryName="Kotest" defaultName="singleModule">
       <module name="gradleKotest.test" />
       <option name="passParentEnvs" value="true" />
@@ -118,19 +156,6 @@
       <option name="programParameters" value="" />
       <option name="specName" value="StringsBasics" />
       <option name="testPath" value="" />
-      <option name="packageName" value="" />
-      <option name="vmparams" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TypeCoercion: between Int and Long type gets coerced to Long" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
-      <module name="gradleKotest.test" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
-      <option name="programParameters" value="" />
-      <option name="specName" value="TypeCoercion" />
-      <option name="testPath" value="between Int and Long type gets coerced to Long" />
       <option name="packageName" value="" />
       <option name="vmparams" value="" />
       <method v="2">
@@ -178,11 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Conditionals (1)" />
         <item itemvalue="Kotest.TypeCoercion: if we want a byte as a result of the operation between two bytes, we need to manually apply a type conversion" />
         <item itemvalue="Gradle.TypeCoercion" />
         <item itemvalue="Kotest.TypeCoercion: operations between bytes get coerced to Int" />
         <item itemvalue="Kotest.TypeCoercion: between Long and Double type gets coerced to Double" />
-        <item itemvalue="Kotest.TypeCoercion: between Int and Long type gets coerced to Long" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +219,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659885079901</updated>
-      <workItem from="1659885082680" duration="13695000" />
+      <workItem from="1659885082680" duration="16776000" />
     </task>
     <servers />
   </component>
