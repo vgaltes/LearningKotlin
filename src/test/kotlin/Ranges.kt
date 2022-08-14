@@ -11,7 +11,8 @@ class Ranges : FunSpec({
             RangeData(1, 10, 15, false)
         )
         {
-            (minRange, maxRange, value, isInRange) -> {
+            (minRange, maxRange, value, isInRange) ->
+            run {
                 val within = value in minRange..maxRange
                 within shouldBe isInRange
             }
@@ -25,10 +26,11 @@ class Ranges : FunSpec({
             RangeData(1, 10, 15, false)
         )
         {
-            (minRange, maxRange, value, isInRange) -> {
+            (minRange, maxRange, value, isInRange) ->
+            run {
                 val notWithin = value !in minRange..maxRange
                 notWithin shouldBe !isInRange
-        }
+            }
         }
     }
 
