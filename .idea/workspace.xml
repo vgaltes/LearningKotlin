@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa2d17af-ff95-46bd-9c96-52dfc51d6971" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/Ranges.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/ForLoops.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,8 +61,8 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotest.Ranges: not within">
-    <configuration name="RepeatingBlocks (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Kotest.ForLoops: factorial of a number">
+    <configuration name="ForLoops" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -75,7 +75,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;RepeatingBlocks&quot;" />
+            <option value="&quot;ForLoops&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -111,52 +111,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ranges: not within" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
+    <configuration name="ForLoops" type="ioKotest" factoryName="Kotest" defaultName="singleModule">
       <module name="gradleKotest.test" />
       <option name="passParentEnvs" value="true" />
       <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
       <option name="programParameters" value="" />
-      <option name="specName" value="Ranges" />
-      <option name="testPath" value="not within" />
+      <option name="specName" value="ForLoops" />
+      <option name="testPath" value="" />
       <option name="packageName" value="" />
       <option name="vmparams" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ranges: you can use within with characters" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
+    <configuration name="ForLoops: a for loop iterates through a range" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
       <module name="gradleKotest.test" />
       <option name="passParentEnvs" value="true" />
       <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
       <option name="programParameters" value="" />
-      <option name="specName" value="Ranges" />
-      <option name="testPath" value="you can use within with characters" />
+      <option name="specName" value="ForLoops" />
+      <option name="testPath" value="a for loop iterates through a range" />
       <option name="packageName" value="" />
       <option name="vmparams" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ranges: you can use within with strings" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
+    <configuration name="ForLoops: factorial of a number" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
       <module name="gradleKotest.test" />
       <option name="passParentEnvs" value="true" />
       <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
       <option name="programParameters" value="" />
-      <option name="specName" value="Ranges" />
-      <option name="testPath" value="you can use within with strings" />
+      <option name="specName" value="ForLoops" />
+      <option name="testPath" value="factorial of a number" />
       <option name="packageName" value="" />
       <option name="vmparams" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RepeatingBlocks: you can declare a variable in a repeat statement" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
+    <configuration name="ForLoops: if you want to exclude the upper limit use until" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
       <module name="gradleKotest.test" />
       <option name="passParentEnvs" value="true" />
       <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
       <option name="programParameters" value="" />
-      <option name="specName" value="RepeatingBlocks" />
-      <option name="testPath" value="you can declare a variable in a repeat statement" />
+      <option name="specName" value="ForLoops" />
+      <option name="testPath" value="if you want to exclude the upper limit use until" />
+      <option name="packageName" value="" />
+      <option name="vmparams" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ForLoops: you can specify a step" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
+      <module name="gradleKotest.test" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
+      <option name="programParameters" value="" />
+      <option name="specName" value="ForLoops" />
+      <option name="testPath" value="you can specify a step" />
       <option name="packageName" value="" />
       <option name="vmparams" value="" />
       <method v="2">
@@ -191,11 +204,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotest.Ranges: not within" />
-        <item itemvalue="Kotest.Ranges: you can use within with strings" />
-        <item itemvalue="Kotest.Ranges: you can use within with characters" />
-        <item itemvalue="Kotest.RepeatingBlocks: you can declare a variable in a repeat statement" />
-        <item itemvalue="Gradle.RepeatingBlocks (1)" />
+        <item itemvalue="Kotest.ForLoops: factorial of a number" />
+        <item itemvalue="Kotest.ForLoops: you can specify a step" />
+        <item itemvalue="Gradle.ForLoops" />
+        <item itemvalue="Kotest.ForLoops: a for loop iterates through a range" />
+        <item itemvalue="Kotest.ForLoops: if you want to exclude the upper limit use until" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +220,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659885079901</updated>
-      <workItem from="1659885082680" duration="19433000" />
+      <workItem from="1659885082680" duration="20748000" />
     </task>
     <servers />
   </component>
