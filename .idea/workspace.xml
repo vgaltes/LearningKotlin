@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa2d17af-ff95-46bd-9c96-52dfc51d6971" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/Equality.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/MutableList.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/Ranges.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/Ranges.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,30 +62,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotest.ForLoops: factorial of a number">
-    <configuration name="ForLoops" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;ForLoops&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Kotest.MutableList: you can sort the elemtns">
     <configuration name="BooleanBasics" type="ioKotest" factoryName="Kotest" defaultName="singleModule">
       <module name="gradleKotest.test" />
       <option name="passParentEnvs" value="true" />
@@ -124,52 +102,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForLoops: a for loop iterates through a range" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
+    <configuration name="MutableList: you can check if an element is in the list" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
       <module name="gradleKotest.test" />
       <option name="passParentEnvs" value="true" />
       <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
       <option name="programParameters" value="" />
-      <option name="specName" value="ForLoops" />
-      <option name="testPath" value="a for loop iterates through a range" />
+      <option name="specName" value="MutableList" />
+      <option name="testPath" value="you can check if an element is in the list" />
       <option name="packageName" value="" />
       <option name="vmparams" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForLoops: factorial of a number" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
+    <configuration name="MutableList: you can search for min and max" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
       <module name="gradleKotest.test" />
       <option name="passParentEnvs" value="true" />
       <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
       <option name="programParameters" value="" />
-      <option name="specName" value="ForLoops" />
-      <option name="testPath" value="factorial of a number" />
+      <option name="specName" value="MutableList" />
+      <option name="testPath" value="you can search for min and max" />
       <option name="packageName" value="" />
       <option name="vmparams" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForLoops: if you want to exclude the upper limit use until" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
+    <configuration name="MutableList: you can search for the index of an element" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
       <module name="gradleKotest.test" />
       <option name="passParentEnvs" value="true" />
       <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
       <option name="programParameters" value="" />
-      <option name="specName" value="ForLoops" />
-      <option name="testPath" value="if you want to exclude the upper limit use until" />
+      <option name="specName" value="MutableList" />
+      <option name="testPath" value="you can search for the index of an element" />
       <option name="packageName" value="" />
       <option name="vmparams" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForLoops: you can specify a step" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
+    <configuration name="MutableList: you can sort the elemtns" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
       <module name="gradleKotest.test" />
       <option name="passParentEnvs" value="true" />
       <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
       <option name="programParameters" value="" />
-      <option name="specName" value="ForLoops" />
-      <option name="testPath" value="you can specify a step" />
+      <option name="specName" value="MutableList" />
+      <option name="testPath" value="you can sort the elemtns" />
+      <option name="packageName" value="" />
+      <option name="vmparams" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MutableList: you can sum the elements" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
+      <module name="gradleKotest.test" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
+      <option name="programParameters" value="" />
+      <option name="specName" value="MutableList" />
+      <option name="testPath" value="you can sum the elements" />
       <option name="packageName" value="" />
       <option name="vmparams" value="" />
       <method v="2">
@@ -204,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotest.ForLoops: factorial of a number" />
-        <item itemvalue="Kotest.ForLoops: you can specify a step" />
-        <item itemvalue="Gradle.ForLoops" />
-        <item itemvalue="Kotest.ForLoops: a for loop iterates through a range" />
-        <item itemvalue="Kotest.ForLoops: if you want to exclude the upper limit use until" />
+        <item itemvalue="Kotest.MutableList: you can sort the elemtns" />
+        <item itemvalue="Kotest.MutableList: you can sum the elements" />
+        <item itemvalue="Kotest.MutableList: you can search for min and max" />
+        <item itemvalue="Kotest.MutableList: you can search for the index of an element" />
+        <item itemvalue="Kotest.MutableList: you can check if an element is in the list" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +211,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659885079901</updated>
-      <workItem from="1659885082680" duration="21049000" />
+      <workItem from="1659885082680" duration="29363000" />
     </task>
     <servers />
   </component>
