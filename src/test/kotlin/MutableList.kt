@@ -1,6 +1,5 @@
 import io.kotest.core.spec.style.StringSpec
 import io.kotest.matchers.collections.shouldHaveSize
-import io.kotest.matchers.ints.shouldBeLessThan
 import io.kotest.matchers.shouldBe
 
 class MutableList : StringSpec({
@@ -187,7 +186,7 @@ class MutableList : StringSpec({
         mutableList.sum() shouldBe 31
     }
 
-    "you can sort the elemtns" {
+    "you can sort the elements" {
         val mutableList = mutableListOf(4, 3, 5, 6, 1, 9, 0, 3)
 
         val sorted = mutableList.sorted()
@@ -197,5 +196,19 @@ class MutableList : StringSpec({
         val sortedDescending = mutableList.sortedDescending()
         sortedDescending.first() shouldBe 9
         sortedDescending.last() shouldBe 0
+    }
+
+    "you can transform a list into a mutableList" {
+        val list = listOf(4, 3, 5, 6, 1, 9, 0, 3).toMutableList()
+        list.add(10)
+
+        list.size shouldBe 9
+    }
+
+    "you can replace an element in a certain position" {
+        val mutableList = mutableListOf("Acrux", "Gacrux", "Imai", "Mimosa")
+        mutableList.set(1, "Kandemor")
+
+        mutableList[1] shouldBe "Kandemor"
     }
 })

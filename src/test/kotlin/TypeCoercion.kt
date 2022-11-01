@@ -50,6 +50,5 @@ class TypeCoercion : StringSpec({
         val coerced = result.toByte()
 
         coerced::class.java.typeName shouldBe "byte"
-        this::class.java.simpleName shouldBe "hello"
     }
 })

@@ -44,4 +44,62 @@ class StringsBasics : StringSpec ({
     "you can repeat a string" {
         "Hello".repeat(4) shouldBe "HelloHelloHelloHello"
     }
+
+    "you can get a substring (last index is exclusive)" {
+        val original = "hello"
+
+        val substring = original.substring(0,3)
+
+        substring shouldBe "hel"
+    }
+
+    "you can get a substring from the startIndex only" {
+        val original = "hello"
+
+        val substring = original.substring(2)
+
+        substring shouldBe "llo"
+    }
+
+    "you can get a substring after or before something" {
+        val original = "hello"
+
+        original.substringAfter('l')  shouldBe "lo"
+        original.substringBefore('o') shouldBe "hell"
+        original.substringBefore('z') shouldBe "hello"
+    }
+
+    "you can get a substring after or before the last something" {
+        val original = "hello"
+
+        original.substringAfterLast('l')  shouldBe "o"
+        original.substringBeforeLast('o') shouldBe "hell"
+    }
+
+    "you can replace parts of a string" {
+        val greeting = "Good morning!"
+
+        val newGreeting = greeting.replace("morning", "bye")
+
+        newGreeting shouldBe "Good bye!"
+    }
+
+    "you can replace only the first occurrence" {
+        val sentence = "one one two two"
+
+        val newSentence = sentence.replaceFirst("one", "three")
+
+        newSentence shouldBe "three one two two"
+    }
+
+    "you can change the case" {
+        val sentence = "a sentence"
+
+        val uppercase = sentence.uppercase()
+        uppercase shouldBe "A SENTENCE"
+
+        val lowercase = uppercase.lowercase()
+        lowercase shouldBe "a sentence"
+
+    }
 })

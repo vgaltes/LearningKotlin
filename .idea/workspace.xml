@@ -4,10 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa2d17af-ff95-46bd-9c96-52dfc51d6971" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/Equality.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/MutableList.kt" afterDir="false" />
+    <list default="true" id="fa2d17af-ff95-46bd-9c96-52dfc51d6971" name="Changes" comment="&#10;# Motivation:&#10;# Explain here the context, and why you're making that change.&#10;# What is the problem you're trying to solve.&#10;&#10;# Modifications:&#10;# Describe the modifications you've done.&#10;&#10;# Result:&#10;# After your change, what will change.&#10;&#10;# Relevant links&#10;# Add links to any releveant trello cards that may hold extra&#10;# context about this change">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/Arrays.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/Classes.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/CollectionsAndPredicates.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/Destructuring.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/Enums.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/Exceptions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/ExtensionFunctions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/Files.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/Functions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/Generics.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/Interfaces.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/JumpsAndReturns.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/LambdaFunctions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/LazyInitialization.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/Lists.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/Maps.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/MultiDimensionalArrays.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/MultiDimensionalLists.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/NullSafety.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/ObjectDeclaration.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/RegexInUse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/RegexQuantifiers.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/RegexShorthands.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/Regexes.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/ScopeFunctions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/Set.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/StringFormatting.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/WhenExpression.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/MutableList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/MutableList.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/StringsBasics.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/StringsBasics.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/TypeCoercion.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/TypeCoercion.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +56,17 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="gradleKotest" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
@@ -49,22 +90,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JAVA&quot;,
+      &quot;kotlin&quot;
+    ]
   }
-}]]></component>
-  <component name="RunManager" selected="Kotest.MutableList: you can sort the elemtns">
+}</component>
+  <component name="RunManager" selected="Kotest.Generics: you can have multiple bonds">
     <configuration name="BooleanBasics" type="ioKotest" factoryName="Kotest" defaultName="singleModule">
       <module name="gradleKotest.test" />
+      <option name="jrePath" value="" />
+      <option name="jrePathEnabled" value="false" />
       <option name="passParentEnvs" value="true" />
       <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
       <option name="programParameters" value="" />
@@ -76,8 +125,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Classes" type="ioKotest" factoryName="Kotest" defaultName="singleModule">
+      <module name="gradleKotest.test" />
+      <option name="jrePath" value="" />
+      <option name="jrePathEnabled" value="false" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
+      <option name="programParameters" value="" />
+      <option name="specName" value="Classes" />
+      <option name="testPath" value="" />
+      <option name="packageName" value="" />
+      <option name="vmparams" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Conditionals" type="ioKotest" factoryName="Kotest" defaultName="singleModule">
       <module name="gradleKotest.test" />
+      <option name="jrePath" value="" />
+      <option name="jrePathEnabled" value="false" />
       <option name="passParentEnvs" value="true" />
       <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
       <option name="programParameters" value="" />
@@ -91,6 +157,8 @@
     </configuration>
     <configuration name="ForLoops" type="ioKotest" factoryName="Kotest" defaultName="singleModule">
       <module name="gradleKotest.test" />
+      <option name="jrePath" value="" />
+      <option name="jrePathEnabled" value="false" />
       <option name="passParentEnvs" value="true" />
       <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
       <option name="programParameters" value="" />
@@ -102,65 +170,75 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MutableList: you can check if an element is in the list" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
+    <configuration name="Generics: you can have a generic method in a generic class" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
       <module name="gradleKotest.test" />
+      <option name="jrePath" value="" />
+      <option name="jrePathEnabled" value="false" />
       <option name="passParentEnvs" value="true" />
       <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
       <option name="programParameters" value="" />
-      <option name="specName" value="MutableList" />
-      <option name="testPath" value="you can check if an element is in the list" />
+      <option name="specName" value="Generics" />
+      <option name="testPath" value="you can have a generic method in a generic class" />
       <option name="packageName" value="" />
       <option name="vmparams" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MutableList: you can search for min and max" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
+    <configuration name="Generics: you can have extension functions of a generic class" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
       <module name="gradleKotest.test" />
+      <option name="jrePath" value="" />
+      <option name="jrePathEnabled" value="false" />
       <option name="passParentEnvs" value="true" />
       <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
       <option name="programParameters" value="" />
-      <option name="specName" value="MutableList" />
-      <option name="testPath" value="you can search for min and max" />
+      <option name="specName" value="Generics" />
+      <option name="testPath" value="you can have extension functions of a generic class" />
       <option name="packageName" value="" />
       <option name="vmparams" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MutableList: you can search for the index of an element" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
+    <configuration name="Generics: you can have multiple bonds" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
       <module name="gradleKotest.test" />
+      <option name="jrePath" value="" />
+      <option name="jrePathEnabled" value="false" />
       <option name="passParentEnvs" value="true" />
       <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
       <option name="programParameters" value="" />
-      <option name="specName" value="MutableList" />
-      <option name="testPath" value="you can search for the index of an element" />
+      <option name="specName" value="Generics" />
+      <option name="testPath" value="you can have multiple bonds" />
       <option name="packageName" value="" />
       <option name="vmparams" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MutableList: you can sort the elemtns" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
+    <configuration name="Generics: you can use type bonds in functions too" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
       <module name="gradleKotest.test" />
+      <option name="jrePath" value="" />
+      <option name="jrePathEnabled" value="false" />
       <option name="passParentEnvs" value="true" />
       <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
       <option name="programParameters" value="" />
-      <option name="specName" value="MutableList" />
-      <option name="testPath" value="you can sort the elemtns" />
+      <option name="specName" value="Generics" />
+      <option name="testPath" value="you can use type bonds in functions too" />
       <option name="packageName" value="" />
       <option name="vmparams" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MutableList: you can sum the elements" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
+    <configuration name="Generics: you can use type bonds to restrict the types of the generics" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
       <module name="gradleKotest.test" />
+      <option name="jrePath" value="" />
+      <option name="jrePathEnabled" value="false" />
       <option name="passParentEnvs" value="true" />
       <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
       <option name="programParameters" value="" />
-      <option name="specName" value="MutableList" />
-      <option name="testPath" value="you can sum the elements" />
+      <option name="specName" value="Generics" />
+      <option name="testPath" value="you can use type bonds to restrict the types of the generics" />
       <option name="packageName" value="" />
       <option name="vmparams" value="" />
       <method v="2">
@@ -169,6 +247,8 @@
     </configuration>
     <configuration name="Run all in gradleKotest.test" type="ioKotest" factoryName="Kotest" defaultName="singleModule">
       <module name="gradleKotest.test" />
+      <option name="jrePath" value="" />
+      <option name="jrePathEnabled" value="false" />
       <option name="passParentEnvs" value="true" />
       <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
       <option name="programParameters" value="" />
@@ -182,6 +262,8 @@
     </configuration>
     <configuration name="StringsBasics" type="ioKotest" factoryName="Kotest" defaultName="singleModule">
       <module name="gradleKotest.test" />
+      <option name="jrePath" value="" />
+      <option name="jrePathEnabled" value="false" />
       <option name="passParentEnvs" value="true" />
       <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
       <option name="programParameters" value="" />
@@ -195,11 +277,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotest.MutableList: you can sort the elemtns" />
-        <item itemvalue="Kotest.MutableList: you can sum the elements" />
-        <item itemvalue="Kotest.MutableList: you can search for min and max" />
-        <item itemvalue="Kotest.MutableList: you can search for the index of an element" />
-        <item itemvalue="Kotest.MutableList: you can check if an element is in the list" />
+        <item itemvalue="Kotest.Generics: you can have multiple bonds" />
+        <item itemvalue="Kotest.Generics: you can use type bonds in functions too" />
+        <item itemvalue="Kotest.Generics: you can use type bonds to restrict the types of the generics" />
+        <item itemvalue="Kotest.Generics: you can have extension functions of a generic class" />
+        <item itemvalue="Kotest.Generics: you can have a generic method in a generic class" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +293,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659885079901</updated>
-      <workItem from="1659885082680" duration="29363000" />
+      <workItem from="1659885082680" duration="36235000" />
+      <workItem from="1660992105435" duration="34092000" />
+      <workItem from="1661713377144" duration="4847000" />
+      <workItem from="1661805288348" duration="15904000" />
+      <workItem from="1662730797894" duration="7407000" />
+      <workItem from="1664793526580" duration="527000" />
+      <workItem from="1664794173321" duration="9473000" />
+      <workItem from="1665745362280" duration="597000" />
+      <workItem from="1665905097664" duration="1833000" />
+      <workItem from="1666253310816" duration="5999000" />
+      <workItem from="1666548941783" duration="48201000" />
     </task>
     <servers />
   </component>
