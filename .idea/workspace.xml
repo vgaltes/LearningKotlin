@@ -5,40 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa2d17af-ff95-46bd-9c96-52dfc51d6971" name="Changes" comment="&#10;# Motivation:&#10;# Explain here the context, and why you're making that change.&#10;# What is the problem you're trying to solve.&#10;&#10;# Modifications:&#10;# Describe the modifications you've done.&#10;&#10;# Result:&#10;# After your change, what will change.&#10;&#10;# Relevant links&#10;# Add links to any releveant trello cards that may hold extra&#10;# context about this change">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/Arrays.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/Classes.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/CollectionsAndPredicates.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/Destructuring.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/Enums.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/Exceptions.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/ExtensionFunctions.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/Files.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/Functions.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/Generics.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/Interfaces.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/JumpsAndReturns.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/LambdaFunctions.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/LazyInitialization.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/Lists.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/Maps.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/MultiDimensionalArrays.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/MultiDimensionalLists.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/NullSafety.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/ObjectDeclaration.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/RegexInUse.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/RegexQuantifiers.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/RegexShorthands.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/Regexes.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/ScopeFunctions.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/Set.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/StringFormatting.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/WhenExpression.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/MutableList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/MutableList.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/StringsBasics.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/StringsBasics.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/TypeCoercion.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/TypeCoercion.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/ExtensionFunctions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/ExtensionFunctions.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +69,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
@@ -109,7 +78,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Kotest.Generics: you can have multiple bonds">
+  <component name="RunManager" selected="Kotest.ExtensionFunctions: can extend companion objects, nullable types, and generic types">
     <configuration name="BooleanBasics" type="ioKotest" factoryName="Kotest" defaultName="singleModule">
       <module name="gradleKotest.test" />
       <option name="jrePath" value="" />
@@ -155,6 +124,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ExtensionFunctions: can extend companion objects, nullable types, and generic types" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
+      <module name="gradleKotest.test" />
+      <option name="jrePath" value="" />
+      <option name="jrePathEnabled" value="false" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
+      <option name="programParameters" value="" />
+      <option name="specName" value="ExtensionFunctions" />
+      <option name="testPath" value="can extend companion objects, nullable types, and generic types" />
+      <option name="packageName" value="" />
+      <option name="vmparams" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExtensionFunctions: extension functions are statically resolved" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
+      <module name="gradleKotest.test" />
+      <option name="jrePath" value="" />
+      <option name="jrePathEnabled" value="false" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
+      <option name="programParameters" value="" />
+      <option name="specName" value="ExtensionFunctions" />
+      <option name="testPath" value="extension functions are statically resolved" />
+      <option name="packageName" value="" />
+      <option name="vmparams" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExtensionFunctions: we can define extension methods inside a type and then it won't have global visibility" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
+      <module name="gradleKotest.test" />
+      <option name="jrePath" value="" />
+      <option name="jrePathEnabled" value="false" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
+      <option name="programParameters" value="" />
+      <option name="specName" value="ExtensionFunctions" />
+      <option name="testPath" value="we can define extension methods inside a type and then it won't have global visibility" />
+      <option name="packageName" value="" />
+      <option name="vmparams" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExtensionFunctions: we can extend via a property as well" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
+      <module name="gradleKotest.test" />
+      <option name="jrePath" value="" />
+      <option name="jrePathEnabled" value="false" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
+      <option name="programParameters" value="" />
+      <option name="specName" value="ExtensionFunctions" />
+      <option name="testPath" value="we can extend via a property as well" />
+      <option name="packageName" value="" />
+      <option name="vmparams" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ForLoops" type="ioKotest" factoryName="Kotest" defaultName="singleModule">
       <module name="gradleKotest.test" />
       <option name="jrePath" value="" />
@@ -170,36 +199,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Generics: you can have a generic method in a generic class" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
-      <module name="gradleKotest.test" />
-      <option name="jrePath" value="" />
-      <option name="jrePathEnabled" value="false" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
-      <option name="programParameters" value="" />
-      <option name="specName" value="Generics" />
-      <option name="testPath" value="you can have a generic method in a generic class" />
-      <option name="packageName" value="" />
-      <option name="vmparams" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Generics: you can have extension functions of a generic class" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
-      <module name="gradleKotest.test" />
-      <option name="jrePath" value="" />
-      <option name="jrePathEnabled" value="false" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
-      <option name="programParameters" value="" />
-      <option name="specName" value="Generics" />
-      <option name="testPath" value="you can have extension functions of a generic class" />
-      <option name="packageName" value="" />
-      <option name="vmparams" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Generics: you can have multiple bonds" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
       <module name="gradleKotest.test" />
       <option name="jrePath" value="" />
@@ -209,36 +208,6 @@
       <option name="programParameters" value="" />
       <option name="specName" value="Generics" />
       <option name="testPath" value="you can have multiple bonds" />
-      <option name="packageName" value="" />
-      <option name="vmparams" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Generics: you can use type bonds in functions too" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
-      <module name="gradleKotest.test" />
-      <option name="jrePath" value="" />
-      <option name="jrePathEnabled" value="false" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
-      <option name="programParameters" value="" />
-      <option name="specName" value="Generics" />
-      <option name="testPath" value="you can use type bonds in functions too" />
-      <option name="packageName" value="" />
-      <option name="vmparams" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Generics: you can use type bonds to restrict the types of the generics" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
-      <module name="gradleKotest.test" />
-      <option name="jrePath" value="" />
-      <option name="jrePathEnabled" value="false" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
-      <option name="programParameters" value="" />
-      <option name="specName" value="Generics" />
-      <option name="testPath" value="you can use type bonds to restrict the types of the generics" />
       <option name="packageName" value="" />
       <option name="vmparams" value="" />
       <method v="2">
@@ -277,11 +246,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotest.ExtensionFunctions: can extend companion objects, nullable types, and generic types" />
+        <item itemvalue="Kotest.ExtensionFunctions: extension functions are statically resolved" />
+        <item itemvalue="Kotest.ExtensionFunctions: we can define extension methods inside a type and then it won't have global visibility" />
+        <item itemvalue="Kotest.ExtensionFunctions: we can extend via a property as well" />
         <item itemvalue="Kotest.Generics: you can have multiple bonds" />
-        <item itemvalue="Kotest.Generics: you can use type bonds in functions too" />
-        <item itemvalue="Kotest.Generics: you can use type bonds to restrict the types of the generics" />
-        <item itemvalue="Kotest.Generics: you can have extension functions of a generic class" />
-        <item itemvalue="Kotest.Generics: you can have a generic method in a generic class" />
       </list>
     </recent_temporary>
   </component>
@@ -303,7 +272,10 @@
       <workItem from="1665745362280" duration="597000" />
       <workItem from="1665905097664" duration="1833000" />
       <workItem from="1666253310816" duration="5999000" />
-      <workItem from="1666548941783" duration="48201000" />
+      <workItem from="1666548941783" duration="48996000" />
+      <workItem from="1667552953676" duration="6647000" />
+      <workItem from="1667818031677" duration="598000" />
+      <workItem from="1668340125176" duration="2476000" />
     </task>
     <servers />
   </component>
