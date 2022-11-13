@@ -276,6 +276,21 @@ class CollectionsAndPredicates: StringSpec({
             }
 
         groupedNames6.toString() shouldBe "{J=4, M=2, P=2}"
+    }
 
+    "map returns a List by taking every element in an Iterable and transforming it with a function you provide" {
+        listOf("There", "were","seven", "dwarves").map { it.count() }.toString() shouldBe  "[5, 4, 5, 7]"
+    }
+
+    "first takes the first element that passes the predicate" {
+        listOf("There", "were","seven", "dwarves").first { it[0] == 's' } shouldBe "seven"
+    }
+
+    "firstOrNull returns an optional value" {
+        listOf("There", "were","seven", "dwarves").firstOrNull { it[0] == 'f' } shouldBe null
+    }
+
+    "flatMap maps an entire collection and then flatten the results returning a single list with all the elements" {
+        listOf("abc","def","123").flatMap { it.toList() }.toString() shouldBe "[a, b, c, d, e, f, 1, 2, 3]"
     }
 })
