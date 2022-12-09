@@ -102,7 +102,7 @@ class CollectionsAndPredicates: StringSpec({
         orderAsc.toString() shouldBe "[anne, caroline, michael, peter]"
 
         val orderDesc = words.sortedByDescending { it.first() }
-        orderDesc.toString() shouldBe "[peter, michael, caroline, anne"
+        orderDesc.toString() shouldBe "[peter, michael, caroline, anne]"
     }
 
     "you can create a comparator to be even more specific" {
@@ -241,7 +241,7 @@ class CollectionsAndPredicates: StringSpec({
 
         // Grouping by the first letter of the name
         val groupedNames = names.groupBy( keySelector = { it.first() }, valueTransform = { it.uppercase() } )
-        groupedNames.toString() shouldBe "{4=[JOHN, JANE, MARY, JOHN, JANE, MARY], 5=[PETER, PETER]}"
+        groupedNames.toString() shouldBe "{J=[JOHN, JANE, JOHN, JANE], M=[MARY, MARY], P=[PETER, PETER]}"
     }
 
     "you can apply an operation to all groups at the same time and count" {

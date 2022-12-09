@@ -183,7 +183,7 @@ class Maps : StringSpec({
 
         staff["John"] = 600
 
-        staff["John"] shouldBe 400
+        staff["John"] shouldBe 600
     }
 
     "you can prevent from modifying and existent item with putIfAbsent" {

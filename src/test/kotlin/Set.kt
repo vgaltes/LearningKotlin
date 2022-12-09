@@ -64,7 +64,7 @@ class Set : StringSpec({
     "you can convert a mutable list to a set" {
         val groceries = mutableListOf("Pen", "Pineapple", "Apple", "Super Pen", "Apple", "Pen")
         val set = groceries.toSet()
-        set.size shouldBe 5
+        set.size shouldBe 4
         set.toString() shouldBe "[Pen, Pineapple, Apple, Super Pen]"
     }
 

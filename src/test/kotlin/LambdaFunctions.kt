@@ -128,7 +128,7 @@ class LambdaFunctions : StringSpec({
 
         val res = 10.opp { this * 2 }
 
-        res shouldBe 2
+        res shouldBe 20
     }
 
     "you can create a type safe builder or a DSL with a lambda with a receiver" {

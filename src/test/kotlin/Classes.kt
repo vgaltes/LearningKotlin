@@ -269,6 +269,8 @@ class Classes : StringSpec({
         val c = Client()
         c.name shouldBe "Unknown"
         c.messages.first() shouldBe "Custom getter called"
+
+
     }
 
     "you can have a custom setter of a property" {
